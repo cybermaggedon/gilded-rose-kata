@@ -11,20 +11,35 @@ public class SealedItem extends Item {
     // Others say its constructs cannot be interpreted.
     int seal;
 
+    // Sealing is quite a selective process
+    static final int MIN_AGE = -32;
+    static final int MAX_AGE = 31;
+    static final int MIN_QUALITY = 0;
+    static final int MAX_QUALITY = 255;
+
     // Creates a sealed item.  Once the seal is set, the item cannot be
     // changed!  (Except by a wizard).
     SealedItem(String name, int sellIn, int quality) {
+	    
 	super(name, sellIn, quality);
+
+	assert sellIn >= MIN_AGE : "Min sellIn violation";
+	assert sellIn <= MAX_AGE : "Max sellIn violation";
+	assert quality >= MIN_QUALITY : "Min age violation";
+	assert quality <= MAX_QUALITY : "Max age violation";
+
+	// Seal the item
 	sealItem();
+
     }
 
     // These values enable the scroll-reader to see into the future
-    final int ENCHANTMENT_LAYER = 3;
-    final int DRAGON_POTION = 8;
-    final int SPELL_POWER = 6;
-    final int ZONE_OF_CHAOS = (1 << (SPELL_POWER - 1));
-    final int BREATH_OF_WORLDS = ENCHANTMENT_LAYER;
-    final int DAWN_OF_TIME = BREATH_OF_WORLDS + DRAGON_POTION;
+    static final int ENCHANTMENT_LAYER = 3;
+    static final int DRAGON_POTION = 8;
+    static final int SPELL_POWER = 6;
+    static final int ZONE_OF_CHAOS = (1 << (SPELL_POWER - 1));
+    static final int BREATH_OF_WORLDS = ENCHANTMENT_LAYER;
+    static final int DAWN_OF_TIME = BREATH_OF_WORLDS + DRAGON_POTION;
 
     // Seal an item using a magical incantation.
     void sealItem() {
@@ -80,7 +95,7 @@ public class SealedItem extends Item {
 	if (name == "Backstage passes to a TAFKAL80ETC concert")
 	    return BACKSTAGE_PASS;
 
-	if (name == "Conjured item")
+	if (name == "Conjured Mana Cake")
 	    return CONJURED;
 
 	return NORMAL;

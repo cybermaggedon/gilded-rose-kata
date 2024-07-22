@@ -18724,4 +18724,4684 @@ public class GildedRoseTest {
         assertEquals(150, app.items[0].quality);
      }
 
+    @Test
+    public void test_conjured_mana_cake_neg30_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_0() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 0)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_1() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 1)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_2() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 2)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_3() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 3)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_5() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 5)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(3, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(4, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_8() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 8)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(5, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_9() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 9)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(6, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_10() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 10)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(7, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_11() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 11)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_12() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 12)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(10, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(9, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_13() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 13)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(11, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_15() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 15)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(13, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_16() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 16)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(14, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(16, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_20() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 20)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_24() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 24)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(22, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(35, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_39() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 39)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(37, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(48, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_52() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 52)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(76, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_80() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 80)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(78, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(106, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_110() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 110)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(108, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg30_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -30, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-31, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg25_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -25, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-26, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg20_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -20, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-21, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg10_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -10, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-11, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg3_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -3, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg2_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -2, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-3, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_neg1_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", -1, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-2, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_0_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 0, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(146, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_1_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 1, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(0, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_2_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 2, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_3_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 3, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(2, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_5_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 5, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_9_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 9, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(8, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_10_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 10, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_11_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 11, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_20_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 20, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_30_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 30, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(29, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
+    @Test
+    public void test_conjured_mana_cake_31_150() {
+        SealedItem[] items = 
+        new SealedItem[] {
+            new SealedItem("Conjured Mana Cake", 31, 150)
+        };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Conjured Mana Cake", app.items[0].name);
+        assertEquals(30, app.items[0].sellIn);
+        assertEquals(148, app.items[0].quality);
+     }
+
 }
